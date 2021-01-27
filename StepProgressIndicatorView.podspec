@@ -22,7 +22,7 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/miiiiiin/StepProgressIndicatorView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots      = "https://raw.githubusercontent.com/miiiiiin/StepProgressIndicatorView/main/Screenshots/Screenshot.png"
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'miiiiiin' => 'min.songkyung@gmail.com' }
   s.source           = { :git => 'https://github.com/miiiiiin/StepProgressIndicatorView.git', :tag => s.version.to_s }
