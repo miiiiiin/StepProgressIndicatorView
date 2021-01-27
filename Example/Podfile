@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'StepProgressIndicatorView_Example' do
+  pod 'StepProgressIndicatorView', :path => '../'
+
+  target 'StepProgressIndicatorView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
