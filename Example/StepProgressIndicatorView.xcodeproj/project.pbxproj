@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		372F9CAC02AA5733C19A8DBD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		372F9CAC02AA5733C19A8DBD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3BBA25AE156CAE6E2A776F11 /* Pods-StepProgressIndicatorView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepProgressIndicatorView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-StepProgressIndicatorView_Tests/Pods-StepProgressIndicatorView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* StepProgressIndicatorView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepProgressIndicatorView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,9 +43,9 @@
 		683E510DD13C4D476FB6A8F8 /* Pods-StepProgressIndicatorView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepProgressIndicatorView_Example.release.xcconfig"; path = "Target Support Files/Pods-StepProgressIndicatorView_Example/Pods-StepProgressIndicatorView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6AF9EA4768A892DB1519C6BA /* Pods-StepProgressIndicatorView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepProgressIndicatorView_Example.debug.xcconfig"; path = "Target Support Files/Pods-StepProgressIndicatorView_Example/Pods-StepProgressIndicatorView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		83833A487E06B26DDDE5C0D7 /* Pods_StepProgressIndicatorView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StepProgressIndicatorView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A495BEEA4719DC65F95FFCCD /* StepProgressIndicatorView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = StepProgressIndicatorView.podspec; path = ../StepProgressIndicatorView.podspec; sourceTree = "<group>"; };
+		A495BEEA4719DC65F95FFCCD /* StepProgressIndicatorView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = StepProgressIndicatorView.podspec; path = ../StepProgressIndicatorView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BA0293B30E3E6303394BE723 /* Pods-StepProgressIndicatorView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepProgressIndicatorView_Tests.release.xcconfig"; path = "Target Support Files/Pods-StepProgressIndicatorView_Tests/Pods-StepProgressIndicatorView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E9F1252CEA875AEFE174E69C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E9F1252CEA875AEFE174E69C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F0377C20FCDE4C1778B535CC /* Pods_StepProgressIndicatorView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StepProgressIndicatorView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				3BBA25AE156CAE6E2A776F11 /* Pods-StepProgressIndicatorView_Tests.debug.xcconfig */,
 				BA0293B30E3E6303394BE723 /* Pods-StepProgressIndicatorView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = JH6HFBQXT6;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = JH6HFBQXT6;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,6 +480,7 @@
 			baseConfigurationReference = 6AF9EA4768A892DB1519C6BA /* Pods-StepProgressIndicatorView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JH6HFBQXT6;
 				INFOPLIST_FILE = StepProgressIndicatorView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +496,7 @@
 			baseConfigurationReference = 683E510DD13C4D476FB6A8F8 /* Pods-StepProgressIndicatorView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JH6HFBQXT6;
 				INFOPLIST_FILE = StepProgressIndicatorView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -507,6 +511,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3BBA25AE156CAE6E2A776F11 /* Pods-StepProgressIndicatorView_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = JH6HFBQXT6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BA0293B30E3E6303394BE723 /* Pods-StepProgressIndicatorView_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = JH6HFBQXT6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

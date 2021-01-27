@@ -1,0 +1,16 @@
+PODS:
+  - StepProgressIndicatorView (0.1.0)
+
+DEPENDENCIES:
+  - StepProgressIndicatorView (from `../`)
+
+EXTERNAL SOURCES:
+  StepProgressIndicatorView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  StepProgressIndicatorView: ca4d968592749388a0a61e3d59d550f485c4d056
+
+PODFILE CHECKSUM: c793a5269243d4a89eacbe3de77d525d4574a3a6
+
+COCOAPODS: 1.8.4

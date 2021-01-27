@@ -1,0 +1,6 @@
+framework module Pods_StepProgressIndicatorView_Example {
+  umbrella header "Pods-StepProgressIndicatorView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

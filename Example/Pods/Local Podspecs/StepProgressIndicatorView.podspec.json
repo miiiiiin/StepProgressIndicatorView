@@ -1,0 +1,22 @@
+{
+  "name": "StepProgressIndicatorView",
+  "version": "0.1.0",
+  "summary": "A short description of StepProgressIndicatorView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/miiiiiin/StepProgressIndicatorView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "miiiiiin": "min.songkyung@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/miiiiiin/StepProgressIndicatorView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "StepProgressIndicatorView/Classes/**/*"
+}
