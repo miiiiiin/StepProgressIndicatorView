@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		655B08D5D72D7E4D45C90FCC9E9209D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7D56351F25C1151400228FB7 /* AnnularLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D56351E25C1151400228FB7 /* AnnularLayer.swift */; };
+		7D56352425C1153E00228FB7 /* LineLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D56352325C1153E00228FB7 /* LineLayer.swift */; };
+		7D56353B25C1181F00228FB7 /* UIView+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D56353A25C1181F00228FB7 /* UIView+Sweeter.swift */; };
 		807B5FA8AA614B13FD8FFBE37EE6F46C /* Pods-StepProgressIndicatorView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E6715F5394950B2D952E29DA70212D9 /* Pods-StepProgressIndicatorView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		934D0858CFA77DE1224B82A69CC61700 /* StepProgressIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 297A90BFAEF68DE56BE92DAC5E99D3BF /* StepProgressIndicatorView-dummy.m */; };
 		98403A281FE067504E175E88CBF5702D /* Pods-StepProgressIndicatorView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E25249D73D38AB5CE48F48808AE37E26 /* Pods-StepProgressIndicatorView_Tests-dummy.m */; };
 		A4FC1901C6639F26A1169826E48F0558 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		B52BE71680F96D4F939870D4F04D5008 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559117D7B96848FA4D04B64D395B9588 /* ReplaceMe.swift */; };
+		B52BE71680F96D4F939870D4F04D5008 /* StepProgressIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559117D7B96848FA4D04B64D395B9588 /* StepProgressIndicatorView.swift */; };
 		B6D8ED242137527AEF3C97277249E91F /* StepProgressIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 843D303C60E2538DD2DE1816D0B71039 /* StepProgressIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B82F41ABC134D1857114552EB70737BD /* Pods-StepProgressIndicatorView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A956DF12D2615318F2B244C525499610 /* Pods-StepProgressIndicatorView_Example-dummy.m */; };
 		DA2C8104D65B404D92FDDB9AE0E6672C /* Pods-StepProgressIndicatorView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 353D33B3E2BCA92F63CCA13BFD5D4B5A /* Pods-StepProgressIndicatorView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,7 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16ACA1A73C5E675DA4CA7DB5D0E2E0AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		16ACA1A73C5E675DA4CA7DB5D0E2E0AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18FE670709C5BE1617999CCFAB76DA34 /* StepProgressIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StepProgressIndicatorView-prefix.pch"; sourceTree = "<group>"; };
 		1EEBCC46FA3763957616305B5E767C97 /* Pods-StepProgressIndicatorView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StepProgressIndicatorView_Example.modulemap"; sourceTree = "<group>"; };
 		28348A8FFA355D34D8B2364EDCCD7C0C /* Pods-StepProgressIndicatorView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StepProgressIndicatorView_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -48,19 +51,22 @@
 		4403440D25841836E9EE09138FA76FE4 /* StepProgressIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StepProgressIndicatorView.xcconfig; sourceTree = "<group>"; };
 		4E6715F5394950B2D952E29DA70212D9 /* Pods-StepProgressIndicatorView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StepProgressIndicatorView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		53049D452610DAC1DD85AC22B5B3B286 /* Pods-StepProgressIndicatorView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StepProgressIndicatorView_Tests-Info.plist"; sourceTree = "<group>"; };
-		559117D7B96848FA4D04B64D395B9588 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = StepProgressIndicatorView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		559117D7B96848FA4D04B64D395B9588 /* StepProgressIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepProgressIndicatorView.swift; path = StepProgressIndicatorView/Classes/StepProgressIndicatorView.swift; sourceTree = "<group>"; };
 		7590085E212900D97A87CCD7CCBAED5F /* Pods-StepProgressIndicatorView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StepProgressIndicatorView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		786EA30230E9B9FAEDE79EA7ED466911 /* StepProgressIndicatorView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = StepProgressIndicatorView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8412E6D44EF3A5623CD57E170CC20D38 /* Pods_StepProgressIndicatorView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StepProgressIndicatorView_Example.framework; path = "Pods-StepProgressIndicatorView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		786EA30230E9B9FAEDE79EA7ED466911 /* StepProgressIndicatorView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = StepProgressIndicatorView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7D56351E25C1151400228FB7 /* AnnularLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnularLayer.swift; sourceTree = "<group>"; };
+		7D56352325C1153E00228FB7 /* LineLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineLayer.swift; sourceTree = "<group>"; };
+		7D56353A25C1181F00228FB7 /* UIView+Sweeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Sweeter.swift"; sourceTree = "<group>"; };
+		8412E6D44EF3A5623CD57E170CC20D38 /* Pods_StepProgressIndicatorView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StepProgressIndicatorView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		843D303C60E2538DD2DE1816D0B71039 /* StepProgressIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StepProgressIndicatorView-umbrella.h"; sourceTree = "<group>"; };
 		8A53A08F0182AE11583C27063190E2C3 /* StepProgressIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StepProgressIndicatorView.modulemap; sourceTree = "<group>"; };
 		8C9F3040AE24EE6EBB228AA06EA1C501 /* Pods-StepProgressIndicatorView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StepProgressIndicatorView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		929DB1F04DEB1CC9276F9E1D201D2AE7 /* Pods_StepProgressIndicatorView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StepProgressIndicatorView_Tests.framework; path = "Pods-StepProgressIndicatorView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D9C530AFE5643BE90D5AC35ADA31023 /* StepProgressIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StepProgressIndicatorView.framework; path = StepProgressIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		929DB1F04DEB1CC9276F9E1D201D2AE7 /* Pods_StepProgressIndicatorView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StepProgressIndicatorView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D9C530AFE5643BE90D5AC35ADA31023 /* StepProgressIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StepProgressIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F032330691E073E8140B8B204F34A10 /* Pods-StepProgressIndicatorView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StepProgressIndicatorView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A956DF12D2615318F2B244C525499610 /* Pods-StepProgressIndicatorView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StepProgressIndicatorView_Example-dummy.m"; sourceTree = "<group>"; };
-		B41513758C44B3AD20E075A249BB3F55 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B41513758C44B3AD20E075A249BB3F55 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B9CB309CAFD9E81FF9E8B2605558734E /* Pods-StepProgressIndicatorView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StepProgressIndicatorView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BC9A51C77D38089303C93DF2050F2540 /* Pods-StepProgressIndicatorView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StepProgressIndicatorView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BE4F290E3EDBBD1EE48A074FE4AF59D3 /* Pods-StepProgressIndicatorView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StepProgressIndicatorView_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -116,7 +122,10 @@
 		4BF7573D61E918AA714D0C5E7EA731E8 /* StepProgressIndicatorView */ = {
 			isa = PBXGroup;
 			children = (
-				559117D7B96848FA4D04B64D395B9588 /* ReplaceMe.swift */,
+				7D56353A25C1181F00228FB7 /* UIView+Sweeter.swift */,
+				559117D7B96848FA4D04B64D395B9588 /* StepProgressIndicatorView.swift */,
+				7D56351E25C1151400228FB7 /* AnnularLayer.swift */,
+				7D56352325C1153E00228FB7 /* LineLayer.swift */,
 				CBCCF3447C963B207E44536ECA4631DB /* Pod */,
 				15964D8655B4D242CA231DEF11AE4246 /* Support Files */,
 			);
@@ -381,8 +390,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B52BE71680F96D4F939870D4F04D5008 /* ReplaceMe.swift in Sources */,
+				7D56351F25C1151400228FB7 /* AnnularLayer.swift in Sources */,
+				B52BE71680F96D4F939870D4F04D5008 /* StepProgressIndicatorView.swift in Sources */,
 				934D0858CFA77DE1224B82A69CC61700 /* StepProgressIndicatorView-dummy.m in Sources */,
+				7D56352425C1153E00228FB7 /* LineLayer.swift in Sources */,
+				7D56353B25C1181F00228FB7 /* UIView+Sweeter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,7 +474,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -556,8 +568,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -684,7 +695,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
