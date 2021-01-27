@@ -30,11 +30,11 @@ TODO: Add long description of the pod here.
   s.platform       = :ios, "13.0"
   s.ios.deployment_target = '13.0'
   s.requires_arc = true
-  s.source_files = 'StepProgressIndicatorView/Classes/**/*.swift'
+  s.source_files = 'Sources/*.swift'
   s.frameworks = 'UIKit'
 
    s.resource_bundles = {
-     'StepProgressIndicatorView' => ['StepProgressIndicatorView/Assets/**/*.xcassets']
+     'StepProgressIndicatorView' => ['Assets/*.xcassets']
    }
 
 end
