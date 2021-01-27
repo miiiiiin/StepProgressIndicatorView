@@ -230,7 +230,7 @@ public class StepProgressIndicatorView: UIView {
         }
     }
     
-    @IBInspectable var showFlag: Bool = true {
+    open var showFlag: Bool = true {
         didSet {
             self.updateSubLayers()
         }

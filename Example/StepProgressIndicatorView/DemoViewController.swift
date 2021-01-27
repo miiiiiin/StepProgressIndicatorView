@@ -52,6 +52,7 @@ class DemoViewController: UIViewController {
         view.lineMargin = 4.0
         view.lineStrokeWidth = 2.0
         view.displayNumbers = false
+        view.showFlag = true
         return view
     }()
     

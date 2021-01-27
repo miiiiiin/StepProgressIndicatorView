@@ -17,7 +17,7 @@ class AnnularLayer: CAShapeLayer {
     lazy private var centerTextLayer = CATextLayer()
     
     static private let originalScale = CATransform3DMakeScale(1.0, 1.0, 1.0)
-    static private let flagImageName = "CYStepIndicator_ic_done_white"
+    static private let flagImageName = "ic_done_white"
     static private var flagCGImage:CGImage?
     
     
@@ -63,7 +63,7 @@ class AnnularLayer: CAShapeLayer {
             //For Pods bundle
             if flagImage == nil {
                 let bundle = Bundle(for: AnnularLayer.self)
-                if let url = bundle.url(forResource: "StepIndicator", withExtension: "bundle") {
+                if let url = bundle.url(forResource: "StepProgressIndicatorView", withExtension: "bundle") {
                     let bundle = Bundle(url: url)
                     flagImage = UIImage(named: AnnularLayer.flagImageName, in: bundle, compatibleWith: nil)
                 }
