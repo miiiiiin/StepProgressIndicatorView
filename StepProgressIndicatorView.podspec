@@ -33,8 +33,8 @@ TODO: Add long description of the pod here.
   s.source_files = 'Sources/*.swift'
   s.frameworks = 'UIKit'
 
-   s.resource_bundles = {
-     'StepProgressIndicatorView' => ['Assets/*.xcassets']
-   }
+   #s.resource_bundles = {
+    # 'StepProgressIndicatorView' => ['Assets/*.xcassets']
+   #}
 
 end
