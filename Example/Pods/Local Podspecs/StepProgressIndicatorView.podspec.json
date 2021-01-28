@@ -1,9 +1,10 @@
 {
   "name": "StepProgressIndicatorView",
-  "version": "0.1.0",
-  "summary": "A short description of StepProgressIndicatorView.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "1.0.0",
+  "summary": "iOS Library for building step progress indicator view",
+  "description": "StepProgressIndicatorView is an iOS Library that indicates steps progress.",
   "homepage": "https://github.com/miiiiiin/StepProgressIndicatorView",
+  "screenshots": "https://raw.githubusercontent.com/miiiiiin/StepProgressIndicatorView/main/Screenshots/Screenshot.png",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -13,10 +14,18 @@
   },
   "source": {
     "git": "https://github.com/miiiiiin/StepProgressIndicatorView.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
+  "swift_versions": [
+    "4.2",
+    "5.0"
+  ],
   "platforms": {
-    "ios": "9.0"
+    "ios": "13.0"
   },
-  "source_files": "StepProgressIndicatorView/Classes/**/*"
+  "requires_arc": true,
+  "source_files": "Sources/**/*",
+  "frameworks": "UIKit",
+  "exclude_files": "Example/StepProgressIndicatorView/*.plist",
+  "swift_version": "5.0"
 }

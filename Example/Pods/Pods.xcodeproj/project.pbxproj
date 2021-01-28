@@ -7,84 +7,86 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		655B08D5D72D7E4D45C90FCC9E9209D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		7D56351F25C1151400228FB7 /* AnnularLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D56351E25C1151400228FB7 /* AnnularLayer.swift */; };
-		7D56352425C1153E00228FB7 /* LineLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D56352325C1153E00228FB7 /* LineLayer.swift */; };
-		7D56353B25C1181F00228FB7 /* UIView+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D56353A25C1181F00228FB7 /* UIView+Sweeter.swift */; };
-		7D56355625C157D600228FB7 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D56355525C157D600228FB7 /* Media.xcassets */; };
+		023ECA80500BD8841A10C00243818E7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		25172F626B4C18C6FD85EAF6E5CF1798 /* AnnularLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B93599F5190AF32B8B5F02BAEC17EA /* AnnularLayer.swift */; };
+		2FA90E737577043F1FD00D1ECB331F21 /* LineLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576A1423050C0B71F8606FAC9B6735F1 /* LineLayer.swift */; };
+		314D586B29603CC0284823231B71F4FF /* UIView+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3885EF6C10145644CC528FA5172B1016 /* UIView+Sweeter.swift */; };
+		438C34AA9ADCF48A07DB7EF90D4C2E00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		69F6736309FC806919CE9309670DCBDC /* StepProgressIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36C281C1A35A424E79B1B25ECDB98D2 /* StepProgressIndicatorView.swift */; };
 		807B5FA8AA614B13FD8FFBE37EE6F46C /* Pods-StepProgressIndicatorView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E6715F5394950B2D952E29DA70212D9 /* Pods-StepProgressIndicatorView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		934D0858CFA77DE1224B82A69CC61700 /* StepProgressIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 297A90BFAEF68DE56BE92DAC5E99D3BF /* StepProgressIndicatorView-dummy.m */; };
+		89883B870B4554F28157395B00194720 /* StepProgressIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40971E45D9F71B593DD167D6D5001F47 /* StepProgressIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98403A281FE067504E175E88CBF5702D /* Pods-StepProgressIndicatorView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E25249D73D38AB5CE48F48808AE37E26 /* Pods-StepProgressIndicatorView_Tests-dummy.m */; };
-		A4FC1901C6639F26A1169826E48F0558 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		B52BE71680F96D4F939870D4F04D5008 /* StepProgressIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559117D7B96848FA4D04B64D395B9588 /* StepProgressIndicatorView.swift */; };
-		B6D8ED242137527AEF3C97277249E91F /* StepProgressIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 843D303C60E2538DD2DE1816D0B71039 /* StepProgressIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E34E28587E06B90718DA0750867FFC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		AD44980B246756E2D57F467BB03EE9AE /* StepProgressIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF4F70DA1EDC33681E606E1D58DC8A9 /* StepProgressIndicatorView-dummy.m */; };
 		B82F41ABC134D1857114552EB70737BD /* Pods-StepProgressIndicatorView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A956DF12D2615318F2B244C525499610 /* Pods-StepProgressIndicatorView_Example-dummy.m */; };
 		DA2C8104D65B404D92FDDB9AE0E6672C /* Pods-StepProgressIndicatorView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 353D33B3E2BCA92F63CCA13BFD5D4B5A /* Pods-StepProgressIndicatorView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9BD3107B356397D23BA5A3ED00F6733 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EF9A6B2BD14329036D161DF11AF65C64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2CD1BF7082164C20C9924BE0A4268EEB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DDC66C44766A69236E53612105DE20A7;
-			remoteInfo = "Pods-StepProgressIndicatorView_Example";
-		};
-		BBA419E506B9ACC39A988D9AE6C495D9 /* PBXContainerItemProxy */ = {
+		835DCE0E8472B208A4E5A2BF171BDD5E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3DF9BC0203C665495CD79F45D25A123A;
 			remoteInfo = StepProgressIndicatorView;
 		};
+		B682DD96CD07511C5FA7A4D68B35B848 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDC66C44766A69236E53612105DE20A7;
+			remoteInfo = "Pods-StepProgressIndicatorView_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16ACA1A73C5E675DA4CA7DB5D0E2E0AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		18FE670709C5BE1617999CCFAB76DA34 /* StepProgressIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StepProgressIndicatorView-prefix.pch"; sourceTree = "<group>"; };
+		181F278F32E11B930E92876A39969F2A /* StepProgressIndicatorView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "StepProgressIndicatorView-Info.plist"; sourceTree = "<group>"; };
 		1EEBCC46FA3763957616305B5E767C97 /* Pods-StepProgressIndicatorView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StepProgressIndicatorView_Example.modulemap"; sourceTree = "<group>"; };
 		28348A8FFA355D34D8B2364EDCCD7C0C /* Pods-StepProgressIndicatorView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StepProgressIndicatorView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		297A90BFAEF68DE56BE92DAC5E99D3BF /* StepProgressIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StepProgressIndicatorView-dummy.m"; sourceTree = "<group>"; };
 		2D1F78622FB674FEA3B724619D5A5632 /* Pods-StepProgressIndicatorView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StepProgressIndicatorView_Tests.modulemap"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2E1B42E28C651169A6F6ACE71A05CBBF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		353D33B3E2BCA92F63CCA13BFD5D4B5A /* Pods-StepProgressIndicatorView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StepProgressIndicatorView_Example-umbrella.h"; sourceTree = "<group>"; };
-		4403440D25841836E9EE09138FA76FE4 /* StepProgressIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StepProgressIndicatorView.xcconfig; sourceTree = "<group>"; };
+		3885EF6C10145644CC528FA5172B1016 /* UIView+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Sweeter.swift"; path = "Sources/UIView+Sweeter.swift"; sourceTree = "<group>"; };
+		40971E45D9F71B593DD167D6D5001F47 /* StepProgressIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StepProgressIndicatorView-umbrella.h"; sourceTree = "<group>"; };
+		48B93599F5190AF32B8B5F02BAEC17EA /* AnnularLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnnularLayer.swift; path = Sources/AnnularLayer.swift; sourceTree = "<group>"; };
 		4E6715F5394950B2D952E29DA70212D9 /* Pods-StepProgressIndicatorView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StepProgressIndicatorView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		53049D452610DAC1DD85AC22B5B3B286 /* Pods-StepProgressIndicatorView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StepProgressIndicatorView_Tests-Info.plist"; sourceTree = "<group>"; };
-		559117D7B96848FA4D04B64D395B9588 /* StepProgressIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepProgressIndicatorView.swift; path = Sources/StepProgressIndicatorView.swift; sourceTree = "<group>"; };
+		576A1423050C0B71F8606FAC9B6735F1 /* LineLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineLayer.swift; path = Sources/LineLayer.swift; sourceTree = "<group>"; };
 		7590085E212900D97A87CCD7CCBAED5F /* Pods-StepProgressIndicatorView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StepProgressIndicatorView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		786EA30230E9B9FAEDE79EA7ED466911 /* StepProgressIndicatorView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = StepProgressIndicatorView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		7D56351E25C1151400228FB7 /* AnnularLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnnularLayer.swift; path = Sources/AnnularLayer.swift; sourceTree = "<group>"; };
-		7D56352325C1153E00228FB7 /* LineLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LineLayer.swift; path = Sources/LineLayer.swift; sourceTree = "<group>"; };
-		7D56353A25C1181F00228FB7 /* UIView+Sweeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIView+Sweeter.swift"; path = "Sources/UIView+Sweeter.swift"; sourceTree = "<group>"; };
-		7D56355525C157D600228FB7 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = Assets/Media.xcassets; sourceTree = "<group>"; };
-		8412E6D44EF3A5623CD57E170CC20D38 /* Pods_StepProgressIndicatorView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StepProgressIndicatorView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		843D303C60E2538DD2DE1816D0B71039 /* StepProgressIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StepProgressIndicatorView-umbrella.h"; sourceTree = "<group>"; };
-		8A53A08F0182AE11583C27063190E2C3 /* StepProgressIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StepProgressIndicatorView.modulemap; sourceTree = "<group>"; };
+		7A0C81A24B503626527AE5B58C1C59A3 /* StepProgressIndicatorView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = StepProgressIndicatorView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8412E6D44EF3A5623CD57E170CC20D38 /* Pods_StepProgressIndicatorView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StepProgressIndicatorView_Example.framework; path = "Pods-StepProgressIndicatorView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9F3040AE24EE6EBB228AA06EA1C501 /* Pods-StepProgressIndicatorView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StepProgressIndicatorView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		929DB1F04DEB1CC9276F9E1D201D2AE7 /* Pods_StepProgressIndicatorView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StepProgressIndicatorView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D9C530AFE5643BE90D5AC35ADA31023 /* StepProgressIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StepProgressIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		929DB1F04DEB1CC9276F9E1D201D2AE7 /* Pods_StepProgressIndicatorView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StepProgressIndicatorView_Tests.framework; path = "Pods-StepProgressIndicatorView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D9C530AFE5643BE90D5AC35ADA31023 /* StepProgressIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StepProgressIndicatorView.framework; path = StepProgressIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F032330691E073E8140B8B204F34A10 /* Pods-StepProgressIndicatorView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StepProgressIndicatorView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A956DF12D2615318F2B244C525499610 /* Pods-StepProgressIndicatorView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StepProgressIndicatorView_Example-dummy.m"; sourceTree = "<group>"; };
-		B41513758C44B3AD20E075A249BB3F55 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B9CB309CAFD9E81FF9E8B2605558734E /* Pods-StepProgressIndicatorView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StepProgressIndicatorView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA0638DBC7F2FA9ADF669C668810EF52 /* StepProgressIndicatorView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StepProgressIndicatorView.release.xcconfig; sourceTree = "<group>"; };
 		BC9A51C77D38089303C93DF2050F2540 /* Pods-StepProgressIndicatorView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StepProgressIndicatorView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BE4F290E3EDBBD1EE48A074FE4AF59D3 /* Pods-StepProgressIndicatorView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StepProgressIndicatorView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BFF4F70DA1EDC33681E606E1D58DC8A9 /* StepProgressIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StepProgressIndicatorView-dummy.m"; sourceTree = "<group>"; };
 		C091FBD3E49BD5F71F3849710FBE73D1 /* Pods-StepProgressIndicatorView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StepProgressIndicatorView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DAB8E4561D7808AB3077F618920EEFA8 /* StepProgressIndicatorView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "StepProgressIndicatorView-Info.plist"; sourceTree = "<group>"; };
+		C2B0F411F2710F4E5C69C5DCCC4608A8 /* StepProgressIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StepProgressIndicatorView-prefix.pch"; sourceTree = "<group>"; };
+		C89A1244512E17E2C8D90BDEE82394E6 /* StepProgressIndicatorView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StepProgressIndicatorView.debug.xcconfig; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D36C281C1A35A424E79B1B25ECDB98D2 /* StepProgressIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepProgressIndicatorView.swift; path = Sources/StepProgressIndicatorView.swift; sourceTree = "<group>"; };
 		E01F60C7825C9D9C152EBAD7F925DC16 /* Pods-StepProgressIndicatorView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StepProgressIndicatorView_Example-Info.plist"; sourceTree = "<group>"; };
 		E25249D73D38AB5CE48F48808AE37E26 /* Pods-StepProgressIndicatorView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StepProgressIndicatorView_Tests-dummy.m"; sourceTree = "<group>"; };
+		E427433E39974ABDFCE408D5EE1D34F2 /* StepProgressIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StepProgressIndicatorView.modulemap; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F4413E5190C8F9FF3EE3D9AF4759090A /* Pods-StepProgressIndicatorView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StepProgressIndicatorView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F71C85E8C7F231E36651CB3EBB4E59E6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		648AB9DEDB8CF38F28705F35F3017B53 /* Frameworks */ = {
+		486ED0E94F73BE04CAE0553EFF044DA0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				655B08D5D72D7E4D45C90FCC9E9209D3 /* Foundation.framework in Frameworks */,
+				438C34AA9ADCF48A07DB7EF90D4C2E00 /* Foundation.framework in Frameworks */,
+				EF9A6B2BD14329036D161DF11AF65C64 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9BD3107B356397D23BA5A3ED00F6733 /* Foundation.framework in Frameworks */,
+				9E34E28587E06B90718DA0750867FFC6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,40 +102,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4FC1901C6639F26A1169826E48F0558 /* Foundation.framework in Frameworks */,
+				023ECA80500BD8841A10C00243818E7C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		15964D8655B4D242CA231DEF11AE4246 /* Support Files */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8A53A08F0182AE11583C27063190E2C3 /* StepProgressIndicatorView.modulemap */,
-				4403440D25841836E9EE09138FA76FE4 /* StepProgressIndicatorView.xcconfig */,
-				297A90BFAEF68DE56BE92DAC5E99D3BF /* StepProgressIndicatorView-dummy.m */,
-				DAB8E4561D7808AB3077F618920EEFA8 /* StepProgressIndicatorView-Info.plist */,
-				18FE670709C5BE1617999CCFAB76DA34 /* StepProgressIndicatorView-prefix.pch */,
-				843D303C60E2538DD2DE1816D0B71039 /* StepProgressIndicatorView-umbrella.h */,
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/StepProgressIndicatorView";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4BF7573D61E918AA714D0C5E7EA731E8 /* StepProgressIndicatorView */ = {
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				7D56355525C157D600228FB7 /* Media.xcassets */,
-				7D56353A25C1181F00228FB7 /* UIView+Sweeter.swift */,
-				559117D7B96848FA4D04B64D395B9588 /* StepProgressIndicatorView.swift */,
-				7D56351E25C1151400228FB7 /* AnnularLayer.swift */,
-				7D56352325C1153E00228FB7 /* LineLayer.swift */,
-				CBCCF3447C963B207E44536ECA4631DB /* Pod */,
-				15964D8655B4D242CA231DEF11AE4246 /* Support Files */,
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
 			);
-			name = StepProgressIndicatorView;
-			path = ../..;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		78CEFBFE5D87B804753D9F1C81AF695E /* Products */ = {
@@ -146,20 +136,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7B0B28AECAE604956944F2B152B2442C /* Development Pods */ = {
+		8BCD9A28EEC460D398C5A5CD41EFA91F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4BF7573D61E918AA714D0C5E7EA731E8 /* StepProgressIndicatorView */,
+				F71C85E8C7F231E36651CB3EBB4E59E6 /* LICENSE */,
+				2E1B42E28C651169A6F6ACE71A05CBBF /* README.md */,
+				7A0C81A24B503626527AE5B58C1C59A3 /* StepProgressIndicatorView.podspec */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		C7F8C7091EFE0C643A42EC8D00337BD9 /* Targets Support Files */ = {
@@ -171,33 +155,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		CBCCF3447C963B207E44536ECA4631DB /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B41513758C44B3AD20E075A249BB3F55 /* LICENSE */,
-				16ACA1A73C5E675DA4CA7DB5D0E2E0AF /* README.md */,
-				786EA30230E9B9FAEDE79EA7ED466911 /* StepProgressIndicatorView.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7B0B28AECAE604956944F2B152B2442C /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E8E3FDB22CDF76E2C9B4A1ADFCF22E9A /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				78CEFBFE5D87B804753D9F1C81AF695E /* Products */,
 				C7F8C7091EFE0C643A42EC8D00337BD9 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D45EF9DEC72E0753F443534E66D4592B /* Pods-StepProgressIndicatorView_Tests */ = {
@@ -233,17 +199,46 @@
 			path = "Target Support Files/Pods-StepProgressIndicatorView_Example";
 			sourceTree = "<group>";
 		};
+		E2090AE78AD0FDF88826BC05EA878AB1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E427433E39974ABDFCE408D5EE1D34F2 /* StepProgressIndicatorView.modulemap */,
+				BFF4F70DA1EDC33681E606E1D58DC8A9 /* StepProgressIndicatorView-dummy.m */,
+				181F278F32E11B930E92876A39969F2A /* StepProgressIndicatorView-Info.plist */,
+				C2B0F411F2710F4E5C69C5DCCC4608A8 /* StepProgressIndicatorView-prefix.pch */,
+				40971E45D9F71B593DD167D6D5001F47 /* StepProgressIndicatorView-umbrella.h */,
+				C89A1244512E17E2C8D90BDEE82394E6 /* StepProgressIndicatorView.debug.xcconfig */,
+				BA0638DBC7F2FA9ADF669C668810EF52 /* StepProgressIndicatorView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/StepProgressIndicatorView";
+			sourceTree = "<group>";
+		};
+		E8E3FDB22CDF76E2C9B4A1ADFCF22E9A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECD19607FF6A9349735952E8FCBD3741 /* StepProgressIndicatorView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		ECD19607FF6A9349735952E8FCBD3741 /* StepProgressIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				48B93599F5190AF32B8B5F02BAEC17EA /* AnnularLayer.swift */,
+				576A1423050C0B71F8606FAC9B6735F1 /* LineLayer.swift */,
+				D36C281C1A35A424E79B1B25ECDB98D2 /* StepProgressIndicatorView.swift */,
+				3885EF6C10145644CC528FA5172B1016 /* UIView+Sweeter.swift */,
+				8BCD9A28EEC460D398C5A5CD41EFA91F /* Pod */,
+				E2090AE78AD0FDF88826BC05EA878AB1 /* Support Files */,
+			);
+			name = StepProgressIndicatorView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2BF918C114843E48A3F1AFF46FF4E9C4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B6D8ED242137527AEF3C97277249E91F /* StepProgressIndicatorView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		33693E3DE8EF58885B4CD9079ADCF6E0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -260,17 +255,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F8773522DAE2353790411F0600A7AFB8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89883B870B4554F28157395B00194720 /* StepProgressIndicatorView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		3DF9BC0203C665495CD79F45D25A123A /* StepProgressIndicatorView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57C5178C3A2516829EFCC892B9620F5E /* Build configuration list for PBXNativeTarget "StepProgressIndicatorView" */;
+			buildConfigurationList = 6B1BA220D7EEC1E73F486EF3383756FB /* Build configuration list for PBXNativeTarget "StepProgressIndicatorView" */;
 			buildPhases = (
-				2BF918C114843E48A3F1AFF46FF4E9C4 /* Headers */,
-				C9E1B0BA9B912238C8E66D3EB0DC3BD0 /* Sources */,
-				648AB9DEDB8CF38F28705F35F3017B53 /* Frameworks */,
-				8105D27305A635BE543B49CEF42B4574 /* Resources */,
+				F8773522DAE2353790411F0600A7AFB8 /* Headers */,
+				715C13E77DE5ABCC27C30C117A032642 /* Sources */,
+				486ED0E94F73BE04CAE0553EFF044DA0 /* Frameworks */,
+				02D8EBAC6DCF1EB1CD3D4A51E9F8A9CD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -293,7 +296,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				2561EDC8E7429755C39C958A98FC36C4 /* PBXTargetDependency */,
+				191BD4A089E4E9D121B60F0EB24CB9A1 /* PBXTargetDependency */,
 			);
 			name = "Pods-StepProgressIndicatorView_Tests";
 			productName = "Pods-StepProgressIndicatorView_Tests";
@@ -312,7 +315,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9405255BBF2D2F9873222D414B8661A7 /* PBXTargetDependency */,
+				C3C81C520D4DCE8421C9D1137A7FFC76 /* PBXTargetDependency */,
 			);
 			name = "Pods-StepProgressIndicatorView_Example";
 			productName = "Pods-StepProgressIndicatorView_Example";
@@ -326,7 +329,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1220;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -349,18 +352,17 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1539BF8F53686E17629D48AAE4F4B2E1 /* Resources */ = {
+		02D8EBAC6DCF1EB1CD3D4A51E9F8A9CD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8105D27305A635BE543B49CEF42B4574 /* Resources */ = {
+		1539BF8F53686E17629D48AAE4F4B2E1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D56355625C157D600228FB7 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +384,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		715C13E77DE5ABCC27C30C117A032642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25172F626B4C18C6FD85EAF6E5CF1798 /* AnnularLayer.swift in Sources */,
+				2FA90E737577043F1FD00D1ECB331F21 /* LineLayer.swift in Sources */,
+				AD44980B246756E2D57F467BB03EE9AE /* StepProgressIndicatorView-dummy.m in Sources */,
+				69F6736309FC806919CE9309670DCBDC /* StepProgressIndicatorView.swift in Sources */,
+				314D586B29603CC0284823231B71F4FF /* UIView+Sweeter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8748A0F73F41A6656A6887C7A0288ABB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -390,108 +404,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9E1B0BA9B912238C8E66D3EB0DC3BD0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7D56351F25C1151400228FB7 /* AnnularLayer.swift in Sources */,
-				B52BE71680F96D4F939870D4F04D5008 /* StepProgressIndicatorView.swift in Sources */,
-				934D0858CFA77DE1224B82A69CC61700 /* StepProgressIndicatorView-dummy.m in Sources */,
-				7D56352425C1153E00228FB7 /* LineLayer.swift in Sources */,
-				7D56353B25C1181F00228FB7 /* UIView+Sweeter.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2561EDC8E7429755C39C958A98FC36C4 /* PBXTargetDependency */ = {
+		191BD4A089E4E9D121B60F0EB24CB9A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-StepProgressIndicatorView_Example";
 			target = DDC66C44766A69236E53612105DE20A7 /* Pods-StepProgressIndicatorView_Example */;
-			targetProxy = 2CD1BF7082164C20C9924BE0A4268EEB /* PBXContainerItemProxy */;
+			targetProxy = B682DD96CD07511C5FA7A4D68B35B848 /* PBXContainerItemProxy */;
 		};
-		9405255BBF2D2F9873222D414B8661A7 /* PBXTargetDependency */ = {
+		C3C81C520D4DCE8421C9D1137A7FFC76 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = StepProgressIndicatorView;
 			target = 3DF9BC0203C665495CD79F45D25A123A /* StepProgressIndicatorView */;
-			targetProxy = BBA419E506B9ACC39A988D9AE6C495D9 /* PBXContainerItemProxy */;
+			targetProxy = 835DCE0E8472B208A4E5A2BF171BDD5E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		345B5FD3E4855DDD0BA84D4F82244921 /* Release */ = {
+		092A1751CFF11A41FF2B924ED6D56A49 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C9F3040AE24EE6EBB228AA06EA1C501 /* Pods-StepProgressIndicatorView_Tests.release.xcconfig */;
+			baseConfigurationReference = BE4F290E3EDBBD1EE48A074FE4AF59D3 /* Pods-StepProgressIndicatorView_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-StepProgressIndicatorView_Tests/Pods-StepProgressIndicatorView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-StepProgressIndicatorView_Tests/Pods-StepProgressIndicatorView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		66F064015D2D7D327273C013C9A08675 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4403440D25841836E9EE09138FA76FE4 /* StepProgressIndicatorView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/StepProgressIndicatorView/StepProgressIndicatorView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StepProgressIndicatorView/StepProgressIndicatorView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 1.0.0;
-				MODULEMAP_FILE = "Target Support Files/StepProgressIndicatorView/StepProgressIndicatorView.modulemap";
-				PRODUCT_MODULE_NAME = StepProgressIndicatorView;
-				PRODUCT_NAME = StepProgressIndicatorView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		67D94886327ADAB00D7AACF1020D0A46 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4413E5190C8F9FF3EE3D9AF4759090A /* Pods-StepProgressIndicatorView_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -502,7 +437,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-StepProgressIndicatorView_Example/Pods-StepProgressIndicatorView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-StepProgressIndicatorView_Example/Pods-StepProgressIndicatorView_Example.modulemap";
@@ -514,76 +449,16 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		916E0404255105F480DC4950B7625F7A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -632,7 +507,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -645,78 +520,11 @@
 			};
 			name = Debug;
 		};
-		A9CE617130E09C90A03470CA5C61B551 /* Debug */ = {
+		708DCCE7E76A88EE38CDBB465B805873 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE4F290E3EDBBD1EE48A074FE4AF59D3 /* Pods-StepProgressIndicatorView_Example.debug.xcconfig */;
+			baseConfigurationReference = 8C9F3040AE24EE6EBB228AA06EA1C501 /* Pods-StepProgressIndicatorView_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-StepProgressIndicatorView_Example/Pods-StepProgressIndicatorView_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-StepProgressIndicatorView_Example/Pods-StepProgressIndicatorView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E0D81C37A2DB04F1997B27309499B031 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4403440D25841836E9EE09138FA76FE4 /* StepProgressIndicatorView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/StepProgressIndicatorView/StepProgressIndicatorView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StepProgressIndicatorView/StepProgressIndicatorView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 1.0.0;
-				MODULEMAP_FILE = "Target Support Files/StepProgressIndicatorView/StepProgressIndicatorView.modulemap";
-				PRODUCT_MODULE_NAME = StepProgressIndicatorView;
-				PRODUCT_NAME = StepProgressIndicatorView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E8F71FB9F3EBAB1ECE015C0846238BF6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9CB309CAFD9E81FF9E8B2605558734E /* Pods-StepProgressIndicatorView_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -727,7 +535,40 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-StepProgressIndicatorView_Tests/Pods-StepProgressIndicatorView_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StepProgressIndicatorView_Tests/Pods-StepProgressIndicatorView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D7E4A7A86480621ECD3E1FBB2F194F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9CB309CAFD9E81FF9E8B2605558734E /* Pods-StepProgressIndicatorView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StepProgressIndicatorView_Tests/Pods-StepProgressIndicatorView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-StepProgressIndicatorView_Tests/Pods-StepProgressIndicatorView_Tests.modulemap";
@@ -744,23 +585,181 @@
 			};
 			name = Debug;
 		};
+		BD631E318084FD9BF6EB9863E5053EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C89A1244512E17E2C8D90BDEE82394E6 /* StepProgressIndicatorView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StepProgressIndicatorView/StepProgressIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StepProgressIndicatorView/StepProgressIndicatorView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/StepProgressIndicatorView/StepProgressIndicatorView.modulemap";
+				PRODUCT_MODULE_NAME = StepProgressIndicatorView;
+				PRODUCT_NAME = StepProgressIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDD15969143DA76A40B108B4CA13DBD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4413E5190C8F9FF3EE3D9AF4759090A /* Pods-StepProgressIndicatorView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StepProgressIndicatorView_Example/Pods-StepProgressIndicatorView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StepProgressIndicatorView_Example/Pods-StepProgressIndicatorView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DE7F8E0D7D15CD1EFA3329820EAF4D3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA0638DBC7F2FA9ADF669C668810EF52 /* StepProgressIndicatorView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StepProgressIndicatorView/StepProgressIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StepProgressIndicatorView/StepProgressIndicatorView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/StepProgressIndicatorView/StepProgressIndicatorView.modulemap";
+				PRODUCT_MODULE_NAME = StepProgressIndicatorView;
+				PRODUCT_NAME = StepProgressIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				916E0404255105F480DC4950B7625F7A /* Debug */,
-				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		57C5178C3A2516829EFCC892B9620F5E /* Build configuration list for PBXNativeTarget "StepProgressIndicatorView" */ = {
+		6B1BA220D7EEC1E73F486EF3383756FB /* Build configuration list for PBXNativeTarget "StepProgressIndicatorView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				66F064015D2D7D327273C013C9A08675 /* Debug */,
-				E0D81C37A2DB04F1997B27309499B031 /* Release */,
+				BD631E318084FD9BF6EB9863E5053EE4 /* Debug */,
+				DE7F8E0D7D15CD1EFA3329820EAF4D3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -768,8 +767,8 @@
 		86D13271FD712B3EC244F882DD9915A4 /* Build configuration list for PBXNativeTarget "Pods-StepProgressIndicatorView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A9CE617130E09C90A03470CA5C61B551 /* Debug */,
-				67D94886327ADAB00D7AACF1020D0A46 /* Release */,
+				092A1751CFF11A41FF2B924ED6D56A49 /* Debug */,
+				BDD15969143DA76A40B108B4CA13DBD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -777,8 +776,8 @@
 		963119E02C92F32A5D0A9327F9E2CCC3 /* Build configuration list for PBXNativeTarget "Pods-StepProgressIndicatorView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8F71FB9F3EBAB1ECE015C0846238BF6 /* Debug */,
-				345B5FD3E4855DDD0BA84D4F82244921 /* Release */,
+				7D7E4A7A86480621ECD3E1FBB2F194F2 /* Debug */,
+				708DCCE7E76A88EE38CDBB465B805873 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
