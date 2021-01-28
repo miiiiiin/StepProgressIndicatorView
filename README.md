@@ -1,7 +1,7 @@
 # StepProgressIndicatorView
 
 [![Version](https://img.shields.io/cocoapods/v/StepProgressIndicatorView.svg?style=flat)](https://cocoapods.org/pods/StepProgressIndicatorView)
-[![License](https://img.shields.io/cocoapods/l/StepProgressIndicatorView.svg?style=flat)](https://cocoapods.org/pods/StepProgressIndicatorView)
+[![License][license-image]][license-url]
 [![Platform](https://img.shields.io/cocoapods/p/StepProgressIndicatorView.svg?style=flat)](https://cocoapods.org/pods/StepProgressIndicatorView)
 
 ## Example
