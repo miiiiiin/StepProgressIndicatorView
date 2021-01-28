@@ -32,6 +32,7 @@ TODO: Add long description of the pod here.
   s.requires_arc = true
   s.source_files = 'Sources/*.swift'
   s.frameworks = 'UIKit'
+  s.exclude_files = 'Example/StepProgressIndicatorView/*.plist'
 
    #s.resource_bundles = {
     # 'StepProgressIndicatorView' => ['Assets/*.xcassets']
