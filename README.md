@@ -36,7 +36,7 @@ stepIndicatorView.currentStep = 0 // set
 
 ## Appearance
 
-** Fonts and sizes **
+**Fonts and sizes:**
 
 ```swift
 stepIndicatorView.textFont = .systemFont(ofSize: 16)
@@ -44,7 +44,7 @@ stepIndicatorView.detailFont = .systemFont(ofSize: 12)
 ```
 
 
-** line sizes **
+**line sizes:**
 
 ```swift
 stepIndicatorView.lineStrokeWidth = 2.0
@@ -55,7 +55,7 @@ stepIndicatorView.verticalPadding = 3
 stepIndicatorView.horizontalPadding = 4
 ```
 
-** Change Colors **
+**Change Colors:**
 
 ```swift
 stepIndicatorView.circleColor = .lightGray
