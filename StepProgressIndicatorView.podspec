@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'StepProgressIndicatorView'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'iOS Library for building step progress indicator view'
 
 # This description is used to generate tags and improve search results.
