@@ -3,6 +3,13 @@
 [![Version](https://img.shields.io/cocoapods/v/StepProgressIndicatorView.svg?style=flat)](https://cocoapods.org/pods/StepProgressIndicatorView)
 [![License][license-image]][license-url]
 [![Platform](https://img.shields.io/cocoapods/p/StepProgressIndicatorView.svg?style=flat)](https://cocoapods.org/pods/StepProgressIndicatorView)
+[![Build Status][travis-image]][travis-url]
+
+[license-image]: https://img.shields.io/badge/License-MIT-blue.svg
+[license-url]: LICENSE
+[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
+
 
 ## Example
 
