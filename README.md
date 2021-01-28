@@ -4,10 +4,6 @@
 [![License](https://img.shields.io/cocoapods/l/StepProgressIndicatorView.svg?style=flat)](https://cocoapods.org/pods/StepProgressIndicatorView)
 [![Platform](https://img.shields.io/cocoapods/p/StepProgressIndicatorView.svg?style=flat)](https://cocoapods.org/pods/StepProgressIndicatorView)
 
-<p align="center">
-<img src="Screenshots/Screenshot.png">
-</p>
-
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
