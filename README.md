@@ -3,6 +3,7 @@
 [![Version](https://img.shields.io/badge/swift-5.0-red.svg)](https://cocoapods.org/pods/StepProgressIndicatorView)
 [![License][license-image]][license-url]
 [![Platform](https://img.shields.io/cocoapods/p/StepProgressIndicatorView.svg?style=flat)](https://cocoapods.org/pods/StepProgressIndicatorView)
+[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 [license-image]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-url]: LICENSE
