@@ -26,12 +26,11 @@ pod 'StepProgressIndicatorView'
 ## Usage
 
 ```swift
-
-        let stepIndicatorView = StepProgressIndicatorView(frame: self.view.bounds)
-        stepIndicatorView.stepTitles = ["One", "Two", "Three", "Four"]
-        stepIndicatorView.details = [0: "First", 1: "Second"]
-        stepIndicatorView.direction = .topToBottom // set direction leftToRight, topToBottom ...
-        stepIndicatorView.currentStep = 0 // set 
+let stepIndicatorView = StepProgressIndicatorView(frame: self.view.bounds)
+stepIndicatorView.stepTitles = ["One", "Two", "Three", "Four"]
+stepIndicatorView.details = [0: "First", 1: "Second"]
+stepIndicatorView.direction = .topToBottom // set direction leftToRight, topToBottom ...
+stepIndicatorView.currentStep = 0 // set 
         
 ```
 
@@ -40,8 +39,8 @@ pod 'StepProgressIndicatorView'
 ** Fonts and sizes **
 
 ```swift
-        stepIndicatorView.textFont = .systemFont(ofSize: 16)
-        stepIndicatorView.detailFont = .systemFont(ofSize: 12)    
+stepIndicatorView.textFont = .systemFont(ofSize: 16)
+stepIndicatorView.detailFont = .systemFont(ofSize: 12)    
 ```
 
 
